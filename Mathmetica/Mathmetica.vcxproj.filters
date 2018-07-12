@@ -13,6 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Basic">
+      <UniqueIdentifier>{16e0cbf6-4ace-4aa1-8e36-e2eb713fe4a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{60dd4ed5-70d3-4031-ad28-5548596b5ae7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particle">
+      <UniqueIdentifier>{26d0ffef-149c-47ab-8adc-690f5ec3370b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Force">
+      <UniqueIdentifier>{cfcf35f8-a027-4af4-b776-e3e50828316a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -21,6 +33,33 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Setting.h">
+      <Filter>Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Constant.h">
+      <Filter>Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicStruct.h">
+      <Filter>Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugInclude.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="ForceGenerator.h">
+      <Filter>Force</Filter>
+    </ClInclude>
+    <ClInclude Include="ForceRegistry.h">
+      <Filter>Force</Filter>
+    </ClInclude>
+    <ClInclude Include="Gravity.h">
+      <Filter>Force</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -28,6 +67,15 @@
     </ClCompile>
     <ClCompile Include="Mathmetica.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicStruct.cpp">
+      <Filter>Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="ForceRegistry.cpp">
+      <Filter>Force</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
